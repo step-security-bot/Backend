@@ -15,3 +15,8 @@ updates:
       interval: daily
     labels:
       - dependency:bun
+
+  - package-ecosystem: docker
+    directory: /
+    schedule:
+      interval: daily
